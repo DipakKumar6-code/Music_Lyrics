@@ -50,8 +50,8 @@ section > h2 {
 
 /* Article styles */
 article {
-    margin: 15px auto; 
-    padding: 22px; 
+    margin: 5px auto; 
+    padding: 18px; 
 }
 
 /* Heading styles within articles */
@@ -63,7 +63,7 @@ article h2 {
 /* Paragraph styles within articles */
 article p {
     margin-bottom: 15px; 
-    font-size: 17px; 
+    font-size: 14px; 
 }
 
 /* Aside styles */
@@ -84,21 +84,22 @@ aside img {
 aside section {
     margin: 13px auto; 
     text-align: center; 
-    padding-left: 18px; 
+    padding-left: 11px; 
+    font-size: 14px;
 }
 
 /* Division styles within section */
 aside section div {
     display: flex; 
     justify-content: space-evenly; 
-    margin-top: 14px; 
+    margin-top: 9px; 
     align-items: center; 
 }
 
 /* Link styles within division */
 aside div a {
     color: #333; 
-    font-size: 18px; 
+    font-size: 14px; 
 }
 
 /* Heading styles within section */
@@ -118,6 +119,10 @@ footer {
     padding: 10px; 
     background-color: #333; 
     color: #fff; 
+}
+
+footer p{
+    font-size: 14px;
 }
 
 /* Paragraph styles */
